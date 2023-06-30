@@ -1,4 +1,3 @@
-
 server:
   port: 8081
 
@@ -7,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/DeveloperATT23/attapp-shopping.git
+          uri: https://github.com/DeveloperATT23/ms-course-youtube.git
           searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
@@ -17,4 +16,6 @@ spring:
       password: s3cr3t
 
         # uri: https://github.com/digitallab-academy/ms-course-youtube.git
+        # uri: https://github.com/DeveloperATT23/attapp-shopping.git
         # uri: https://github.com/arcitec2302/ms-course-youtube.git
+        # uri: https://github.com/DeveloperATT23/attapp-shopping.git
