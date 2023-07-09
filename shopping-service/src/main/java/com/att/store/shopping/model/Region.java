@@ -1,2 +1,9 @@
-package com.att.store.shopping.model;public class Region {
+package com.att.store.shopping.model;
+
+import lombok.Data;
+
+@Data
+public class Region {
+    private Long id;
+    private String name;
 }
