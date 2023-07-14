@@ -19,6 +19,10 @@ spring:
     driverClassName: org.h2.Driver
     username: sa
     password:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
 
   # ===============================
   # JPA / HIBERNATE

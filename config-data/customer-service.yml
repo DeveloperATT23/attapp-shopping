@@ -24,6 +24,11 @@ spring:
   sql:
     init:
       platform: h2
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
+
 
 logging:
   pattern:
